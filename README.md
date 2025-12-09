@@ -26,6 +26,7 @@ Raquel González Carrillo
    Para poder colocar h1 en el centro vamos hacer tres columnas iguales  grid-template-columns: 1fr 1fr 1fr; y situar al h1 en la columna central.
 
    ## CSS NECESARIO
+   
 .site-header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -38,7 +39,9 @@ Raquel González Carrillo
   margin: 0;
 }
 ## Ejercicio 1C
+
 ## CSS NECESARIO
+
 .site-header {
   display: flex;
   flex-direction: column;
@@ -51,8 +54,11 @@ Raquel González Carrillo
   margin: 0;
 }
 ## Explicación 
-De esta manera los agregamos dentro del header. 
+
+De esta manera los agregamos dentro del header.
+
 ## Ejericio 1D
+
 .site-header {
   display: flex;
   flex-direction: column;
@@ -68,8 +74,10 @@ De esta manera los agregamos dentro del header.
 .site-header .main-nav {
   margin: 0;
 }
+
 De esta manera podemos agregar un fondo en el header sin tener que afectar al resto del body, asi mismo, incluimos este border-bottom, para ponerlo especificamente en la parte inferior del header para así poder separarla del resto de información 
 # Ejercicio 2
+
 ## Ejercicio 2a 
 
 Cambio del HTML
@@ -84,6 +92,7 @@ Cambio del HTML
 </header>
 
 ## Ejercio 2b
+
 Cambio en el CSS
 
 .site-header {
@@ -112,6 +121,6 @@ Agregamos el translateX(-50%) y el left 50% para que este perfectamente en el ce
 # Ejercicio 3 
 ## Ejericio 3A
 Se añadio en la carpeta del repositorio
-
+[Enlace pagina]()
 
 
