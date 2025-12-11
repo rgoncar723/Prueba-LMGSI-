@@ -3,8 +3,8 @@ Raquel González Carrillo
 # Ejercicio 1
 ## Ejercicio 1a
 
-¿Por qué NO se centra el texto del <h1> en este caso? Explícalo con tus palabras. (por qué visual y estructuralmente no aparece centrado entre el borde izquierdo y el menú)
-(Primero hay que mencionar que el fichero de css no esta vinculado con el html, por lo que no va a funcionar) No funciona porque .site-header esta usando flex (display: flex) y flexbox cambia totalmente el orden de los elementos. Al quitarlo, h1 se alinea al centro. 
+*¿Por qué NO se centra el texto del <h1> en este caso? Explícalo con tus palabras. (por qué visual y estructuralmente no aparece centrado entre el borde izquierdo y el menú)
+(Primero hay que mencionar que el fichero de css no esta vinculado con el html, por lo que no va a funcionar) No funciona porque .site-header esta usando flex (display: flex) y flexbox cambia totalmente el orden de los elementos. Al quitarlo, h1 se alinea al centro.*
 
 ## Ejericio 1b 
 
@@ -122,5 +122,6 @@ Agregamos el translateX(-50%) y el left 50% para que este perfectamente en el ce
 ## Ejericio 3A
 Se añadio en la carpeta del repositorio
 [Enlace pagina]()
+
 
 
