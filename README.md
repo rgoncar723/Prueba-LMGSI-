@@ -3,13 +3,13 @@ Raquel González Carrillo
 # Ejercicio 1
 ## Ejercicio 1a
 
-*¿Por qué NO se centra el texto del <h1> en este caso? Explícalo con tus palabras. (por qué visual y estructuralmente no aparece centrado entre el borde izquierdo y el menú)
-(Primero hay que mencionar que el fichero de css no esta vinculado con el html, por lo que no va a funcionar) No funciona porque .site-header esta usando flex (display: flex) y flexbox cambia totalmente el orden de los elementos. Al quitarlo, h1 se alinea al centro.*
+
+No funciona porque .site-header está usando flex (display: flex) y flexbox cambia totalmente el orden de los elementos. Al quitarlo, h1 se alinea al centro.
 
 ## Ejericio 1b 
 
 1. Solución con flexbox
-   Debido a que en un contenedor flex un margen automático en el eje principal absorbe el espacio sobrante. Si damos margin: 0 auto; a h1, este quedare centrado y el nav se sitúa a la derecha.
+   Debido a que en un contenedor flex un margen automático en el eje principal absorbe el espacio sobrante. Si damos margin: 0 auto; a h1, este quedará centrado y el nav se sitúa a la derecha.
    
    ## CSS NECESARIO
    
@@ -116,12 +116,14 @@ Cambio en el CSS
   margin: 0;
 }
 
-Agregamos el translateX(-50%) y el left 50% para que este perfectamente en el centro.
+Agregamos el translateX(-50%) y el left 50% para que esté perfectamente en el centro.
 
 # Ejercicio 3 
-## Ejericio 3A
-Se añadio en la carpeta del repositorio
-[Enlace pagina]()
+## Ejericio 3C
+Se añadió en la carpeta del repositorio
+[Enlace página](https://rgoncar723.github.io/Prueba-LMGSI-/)
+
+
 
 
 
